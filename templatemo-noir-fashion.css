@@ -17,8 +17,8 @@ https://templatemo.com/tm-599-noir-fashion
 
 :root {
 	--primary: #0a0a0a;
-	--accent: #ff3366;
-	--accent-hover: #ff1149;
+	--accent: #019e1b;
+	--accent-hover: #226404;
 	--text-light: #ffffff;
 	--text-muted: #999;
 	--bg-dark: #000;
@@ -387,7 +387,7 @@ nav.scrolled {
 	height: 150%;
 	top: -25%;
 	left: -25%;
-	background: conic-gradient(from 180deg at 50% 50%, #ff3366 0deg, #000 60deg, #ff3366 120deg, #000 180deg, #ff3366 240deg, #000 300deg, #ff3366 360deg);
+	background: conic-gradient(from 180deg at 50% 50%, #2ada07 0deg, #000 60deg, #ff3366 120deg, #000 180deg, #ff3366 240deg, #000 300deg, #ff3366 360deg);
 	animation: spin 20s linear infinite;
 	opacity: 0.15;
 }
@@ -446,7 +446,7 @@ nav.scrolled {
 	position: absolute;
 	width: 30px;
 	height: 100%;
-	background: linear-gradient(90deg, transparent, rgba(255, 51, 102, 0.5), transparent);
+	background: linear-gradient(90deg, transparent, rgba(51, 255, 95, 0.5), transparent);
 	left: -30px;
 	animation: shimmer 3s ease infinite;
 }
@@ -492,7 +492,7 @@ nav.scrolled {
 }
 
 .hero-title .accent {
-	background: linear-gradient(90deg, #ff3366, #ff6690);
+	background: linear-gradient(90deg, #21c444, #66ff87);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-style: italic;
@@ -600,7 +600,7 @@ nav.scrolled {
 
 .cta-button.primary:hover {
 	transform: translateY(-2px);
-	box-shadow: 0 20px 40px rgba(255, 51, 102, 0.3);
+	box-shadow: 0 20px 40px rgba(99, 255, 51, 0.3);
 }
 
 .cta-button.outline {
@@ -963,7 +963,7 @@ nav.scrolled {
 
 .collection-card:hover {
 	transform: translateY(-5px);
-	box-shadow: 0 15px 30px rgba(255, 51, 102, 0.2);
+	box-shadow: 0 15px 30px rgba(75, 255, 51, 0.2);
 }
 
 .card-content {
@@ -1085,7 +1085,7 @@ nav.scrolled {
 .highlight-icon {
 	width: 60px;
 	height: 60px;
-	background: linear-gradient(135deg, var(--accent), #ff6690);
+	background: linear-gradient(135deg, var(--accent), #73ff66);
 	border-radius: 50%;
 	display: flex;
 	align-items: center;
@@ -1163,7 +1163,7 @@ nav.scrolled {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(45deg, transparent 30%, rgba(255, 51, 102, 0.1) 50%, transparent 70%);
+	background: linear-gradient(45deg, transparent 30%, rgba(51, 255, 51, 0.1) 50%, transparent 70%);
 	transform: translateX(-100%);
 	transition: transform 0.8s ease;
 }
@@ -1189,7 +1189,7 @@ nav.scrolled {
 .feature-cta:hover {
 	background: var(--accent-hover);
 	transform: translateY(-2px);
-	box-shadow: 0 10px 30px rgba(255, 51, 102, 0.4);
+	box-shadow: 0 10px 30px rgba(51, 255, 78, 0.4);
 }
 
 /* Testimonials */
